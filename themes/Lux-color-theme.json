@@ -194,7 +194,8 @@
     "titleBar.activeForeground": "#f8f8f2",
     "titleBar.inactiveBackground": "#282834",
     "titleBar.inactiveForeground": "#6272a4",
-    "walkThrough.embeddedEditorBackground": "#23232F"
+    "walkThrough.embeddedEditorBackground": "#23232F",
+    "tree.inactiveIndentGuidesStroke": "#353545",
     //"acceptButton.green": "#679d63",
     //"acceptButton.hoverGreen": "#2d6f2a",
     //"actionBar.toggledBackground": "#6272a466",
@@ -758,8 +759,8 @@
     //"textSeparator.foreground": "#ffffff2e",
     //"toolbar.activeBackground": "#63666750",
     //"toolbar.hoverBackground": "#5a5d5e50",
-    //"tree.inactiveIndentGuidesStroke": "#58585866",
-    //"tree.indentGuidesStroke": "#585858",
+
+    "tree.indentGuidesStroke": "#353549",
     //"tree.tableColumnsBorder": "#cccccc20",
     //"tree.tableOddRowsBackground": "#f8f8f20a",
     //"walkthrough.stepTitle.foreground": "#ffffff",
@@ -858,7 +859,7 @@
     //"radio.inactiveBackground": null,
     //"radio.inactiveForeground": null,
     //"searchEditor.findMatchBorder": null,
-    //"sideBar.border": null,
+    "sideBar.border": "#282834"
     //"sideBar.foreground": null,
     //"sideBarSectionHeader.foreground": null,
     //"sideBarStickyScroll.border": null,
