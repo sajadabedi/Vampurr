@@ -1,6 +1,6 @@
 {
-  "name": "lux",
-  "displayName": "lux",
+  "name": "codeula",
+  "displayName": "Codeula",
   "description": "",
   "version": "0.0.1",
   "engines": {
@@ -12,9 +12,9 @@
   "contributes": {
     "themes": [
       {
-        "label": "Lux",
+        "label": "Codeula",
         "uiTheme": "vs-dark",
-        "path": "./themes/Lux-color-theme.json"
+        "path": "./themes/codeula-color-theme.json"
       }
     ]
   }

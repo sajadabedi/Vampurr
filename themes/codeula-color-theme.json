@@ -1,5 +1,6 @@
 {
-  // "tokenColors": "./Dracula.tmTheme",
+  "name": "Codeula",
+  // "tokenColors": "./Codeula.tmTheme",
   "colors": {
     // Activity Bar - Controls the activity bar that displays on the far left/right
     // You can add activityBar.border for border customization
