@@ -56,7 +56,7 @@
     // editor.selectionHighlightBorder - Border for other occurrences of selected text
 
     // Editor Selection and Range
-    "editor.selectionBackground": "#7b639967",
+    "editor.selectionBackground": "#3c304a",
 
     // Editor Snippets
     "editor.snippetFinalTabstopHighlightBackground": "#21212C",
