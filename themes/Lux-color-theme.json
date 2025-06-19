@@ -56,7 +56,7 @@
     // editor.selectionHighlightBorder - Border for other occurrences of selected text
 
     // Editor Selection and Range
-    "editor.selectionBackground": "#44475a",
+    "editor.selectionBackground": "#7b639967",
 
     // Editor Snippets
     "editor.snippetFinalTabstopHighlightBackground": "#21212C",
@@ -251,21 +251,21 @@
     // inputValidation.warningBackground - Background color of warning validation
     // List and Tree Controls - Controls the appearance of lists and trees
     // Active Selection
-    "list.activeSelectionBackground": "#44475a",
+    "list.activeSelectionBackground": "#7b639967",
     "list.activeSelectionForeground": "#f8f8f2",
 
     // Focus and Hover
-    "list.focusBackground": "#44475a",
+    "list.focusBackground": "#7b639967",
     "list.focusForeground": "#f8f8f2",
-    "list.hoverBackground": "#44475a",
+    "list.hoverBackground": "#7b639967",
     "list.hoverForeground": "#f8f8f2",
 
     // Inactive Selection
-    "list.inactiveSelectionBackground": "#44475a70",
+    "list.inactiveSelectionBackground": "#7b639967",
     "list.inactiveSelectionForeground": "#f8f8f2",
 
     // Drag and Drop
-    "list.dropBackground": "#44475a70",
+    "list.dropBackground": "#7b639967",
     "list.highlightForeground": "#8be9fd",
 
     // Additional list customizations:
@@ -467,7 +467,7 @@
     //"checkbox.foreground": "#f8f8f2",
     //"checkbox.selectBackground": "#23232F",
     //"checkbox.selectBorder": "#c5c5c5",
-    //"commandCenter.activeBackground": "#ffffff14",
+    // "commandCenter.activeBackground": "#ffffff14",
     //"commandCenter.activeBorder": "#f8f8f24d",
     //"commandCenter.activeForeground": "#f8f8f2",
     //"commandCenter.background": "#ffffff0d",
@@ -703,10 +703,11 @@
     //"issues.closed": "#cb2431",
     //"issues.newIssueDecoration": "#ffffff48",
     //"issues.open": "#3fb950",
-    //"keybindingLabel.background": "#8080802b",
-    //"keybindingLabel.border": "#33333399",
-    //"keybindingLabel.bottomBorder": "#44444499",
-    //"keybindingLabel.foreground": "#cccccc",
+    "keybindingLabel.background": "#2a2332",
+    // "keybindingLabel.border": "#80808000",
+    // "keybindingLabel.bottomBorder": "#80808000",
+    // "keybindingLabel.foreground": "#a983da",
+
     //"keybindingTable.headerBackground": "#f8f8f20a",
     //"keybindingTable.rowsBackground": "#f8f8f20a",
     //"list.deemphasizedForeground": "#8c8c8c",
@@ -715,7 +716,7 @@
     //"list.focusHighlightForeground": "#8be9fd",
     //"list.focusOutline": "#6272a4",
     //"list.invalidItemForeground": "#b89500",
-    //"listFilterWidget.shadow": "#0000005c",
+    // "listFilterWidget.shadow": "#0000005c",
     //"markdown.extension.editor.codeSpan.background": "#00000000",
     //"markdown.extension.editor.codeSpan.border": "#44475a",
     //"markdown.extension.editor.formattingMark.foreground": "#ffffff1a",
@@ -811,7 +812,7 @@
     //"pullRequests.merged": "#8957e5",
     //"pullRequests.notification": "#3794ff",
     //"pullRequests.open": "#3fb950",
-    //"quickInput.background": "#23232F",
+    "quickInput.background": "#1E1925",
     //"quickInput.foreground": "#f8f8f2",
     //"quickInputList.focusBackground": "#44475a",
     //"quickInputList.focusForeground": "#f8f8f2",
