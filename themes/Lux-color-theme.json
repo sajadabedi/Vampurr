@@ -1,6 +1,8 @@
 {
   // "tokenColors": "./Dracula.tmTheme",
   "colors": {
+    // Activity Bar - Controls the activity bar that displays on the far left/right
+    // You can add activityBar.border for border customization
     "activityBar.activeBackground": "#bd93f910",
     "activityBar.activeBorder": "#ff79c680",
     "activityBar.background": "#343746",
@@ -8,41 +10,68 @@
     "activityBar.inactiveForeground": "#6272a4",
     "activityBarBadge.background": "#ff79c6",
     "activityBarBadge.foreground": "#f8f8f2",
+
+    // Badge - Controls the badge appearance (like count indicators)
+    // You can add badge.borderColor for custom border
     "badge.background": "#44475a",
     "badge.foreground": "#f8f8f2",
+
+    // Breadcrumbs - Controls the breadcrumbs navigation
+    // Consider adding breadcrumb.errorForeground for error states
     "breadcrumb.activeSelectionForeground": "#f8f8f2",
     "breadcrumb.background": "#21212C",
     "breadcrumb.focusForeground": "#f8f8f2",
     "breadcrumb.foreground": "#6272a4",
     "breadcrumbPicker.background": "#282834",
+
+    // Buttons - Controls button appearances throughout the UI
+    // Consider adding button.border for custom borders
     "button.background": "#44475a",
     "button.foreground": "#f8f8f2",
     "button.secondaryBackground": "#21212C",
     "button.secondaryForeground": "#f8f8f2",
     "button.secondaryHoverBackground": "#343746",
-    "debugToolBar.background": "#23232F",
+
+    // Debug - Controls debug toolbar and related UI elements
+    // You can add debugToolBar.border and debugToolBar.foreground
     "diffEditor.insertedTextBackground": "#50fa7b20",
     "diffEditor.removedTextBackground": "#ff555550",
-    "dropdown.background": "#343746",
-    "dropdown.border": "#282834",
-    "dropdown.foreground": "#f8f8f2",
+
+    // Dropdown Control - Controls dropdown menus throughout the UI
+    // You can add dropdown.listBackground for dropdown list styling
+    // Editor Core - Main editor colors and highlighting
     "editor.background": "#21212C",
-    "editor.findMatchBackground": "#ffb86c80",
-    "editor.findMatchHighlightBackground": "#ffffff40",
+    "editor.foreground": "#f8f8f2",
+    "editor.lineHighlightBorder": "#44475a",
+
+    // Editor Selection and Highlighting
     "editor.findRangeHighlightBackground": "#44475a75",
     "editor.foldBackground": "#23232F80",
-    "editor.foreground": "#f8f8f2",
     "editor.hoverHighlightBackground": "#8be9fd50",
-    "editor.lineHighlightBorder": "#44475a",
-    "editor.rangeHighlightBackground": "#bd93f915",
+
+    // Additional Editor Features
+    // editor.lineHighlightBackground - Current line background
+    // editor.selectionForeground - Selected text color
+    // editor.inactiveSelectionBackground - Selection in inactive editor
+    // editor.selectionHighlightBorder - Border for other occurrences of selected text
+
+    // Editor Selection and Range
     "editor.selectionBackground": "#44475a",
-    "editor.selectionHighlightBackground": "#4244508b",
+
+    // Editor Snippets
     "editor.snippetFinalTabstopHighlightBackground": "#21212C",
     "editor.snippetFinalTabstopHighlightBorder": "#50fa7b",
     "editor.snippetTabstopHighlightBackground": "#21212C",
     "editor.snippetTabstopHighlightBorder": "#6272a4",
+
+    // Editor Word Highlighting
     "editor.wordHighlightBackground": "#8be9fd50",
     "editor.wordHighlightStrongBackground": "#50fa7b50",
+
+    // Additional customizable snippet properties:
+    // editor.snippetInsertedText.background - Background of inserted snippet
+    // editor.snippetInsertedText.border - Border of inserted snippet
+    // Editor Bracket Highlighting - Controls the colors of matching brackets
     "editorBracketHighlight.foreground1": "#f8f8f2",
     "editorBracketHighlight.foreground2": "#ff79c6",
     "editorBracketHighlight.foreground3": "#8be9fd",
@@ -50,93 +79,270 @@
     "editorBracketHighlight.foreground5": "#bd93f9",
     "editorBracketHighlight.foreground6": "#ffb86c",
     "editorBracketHighlight.unexpectedBracket.foreground": "#ff5555",
+
+    // Additional customizable bracket properties:
+    // editorBracketPairGuide.activeBackground1-6 - Active bracket pair guide colors
+    // editorBracketPairGuide.background1-6 - Inactive bracket pair guide colors
+    // Editor CodeLens and Cursor
     "editorCodeLens.foreground": "#6272a4",
     "editorCursor.background": "#210521",
     "editorCursor.foreground": "#ffbef7",
+
+    // Editor Diagnostics
     "editorError.foreground": "#ff5555",
+
+    // Additional diagnostic customizations:
+    // editorError.background - Background color of error squiggles
+    // editorError.border - Border color of error boxes
+    // editorWarning.background - Background color of warning squiggles
+    // editorInfo.foreground - Color for information markers
+    // Editor Groups - Controls the editor group dividers and headers
     "editorGroup.border": "#bd93f9",
     "editorGroup.dropBackground": "#44475a70",
     "editorGroupHeader.tabsBackground": "#282834",
-    "editorGutter.addedBackground": "#50fa7b80",
-    "editorGutter.deletedBackground": "#ff555580",
-    "editorGutter.modifiedBackground": "#8be9fd80",
+
+    // Additional group customizations:
+    // editorGroup.emptyBackground - Background color of empty editor group
+    // editorGroup.focusedEmptyBorder - Border color of focused empty editor group
+    // editorGroupHeader.border - Border color of editor group header
+
+    // Editor Gutter - Controls the gutter area (line numbers, git changes)
+    "editorGutter.addedBackground": "#74FB95",
+    "editorGutter.deletedBackground": "#ff5555",
+    "editorGutter.modifiedBackground": "#8be9fd",
+
+    // Additional gutter customizations:
+    // editorGutter.background - Background color of the gutter
+    // editorGutter.commentRangeForeground - Color of comment range in the gutter
+    // editorGutter.foldingControlForeground - Color of the folding control
+    // Editor Hover Widget - Controls the hover popup appearance
     "editorHoverWidget.background": "#1E1925",
     "editorHoverWidget.border": "#bd93f947",
-    "editorLineNumber.foreground": "#6272a4",
+
+    // Additional hover customizations:
+    // editorHoverWidget.foreground - Text color in hover widget
+    // editorHoverWidget.statusBarBackground - Background of the status bar in hover widget
+
+    // Editor Line Numbers and Links
+    "editorLineNumber.foreground": "#a9a9a97a",
     "editorLink.activeForeground": "#8be9fd",
+
+    // Additional line number customizations:
+    // editorLineNumber.activeForeground - Color of the active line number
+    // editorLineNumber.dimmedForeground - Color of dimmed line numbers
+    // Editor Marker Navigation
     "editorMarkerNavigation.background": "#23232F",
-    "editorOverviewRuler.addedForeground": "#50fa7b80",
+
+    // Additional marker navigation customizations:
+    // editorMarkerNavigation.headerBackground - Background color of marker navigation widget header
+    // editorMarkerNavigationError.background - Background color of error markers
+    // editorMarkerNavigationWarning.background - Background color of warning markers
+
+    // Editor Overview Ruler - Controls the overview ruler (scroll bar)
     "editorOverviewRuler.border": "#282834",
-    "editorOverviewRuler.currentContentForeground": "#50fa7b",
+
+    // Git changes in overview ruler
+    "editorOverviewRuler.addedForeground": "#50fa7b80",
     "editorOverviewRuler.deletedForeground": "#ff555580",
-    "editorOverviewRuler.errorForeground": "#ff555580",
-    "editorOverviewRuler.incomingContentForeground": "#bd93f9",
-    "editorOverviewRuler.infoForeground": "#8be9fd80",
     "editorOverviewRuler.modifiedForeground": "#8be9fd80",
-    "editorOverviewRuler.selectionHighlightForeground": "#ffb86c75",
+    "editorOverviewRuler.currentContentForeground": "#50fa7b",
+    "editorOverviewRuler.incomingContentForeground": "#bd93f9",
+
+    // Diagnostic indicators in overview ruler
+    "editorOverviewRuler.errorForeground": "#ff555580",
+    "editorOverviewRuler.infoForeground": "#8be9fd80",
     "editorOverviewRuler.warningForeground": "#ffb86c80",
+
+    // Selection and highlighting in overview ruler
+    "editorOverviewRuler.selectionHighlightForeground": "#ffb86c75",
     "editorOverviewRuler.wordHighlightForeground": "#8be8fd72",
     "editorOverviewRuler.wordHighlightStrongForeground": "#50fa7a78",
+
+    // Additional overview ruler customizations:
+    // editorOverviewRuler.commonContentForeground - Color for content common to both left and right editors
+    // editorOverviewRuler.findMatchForeground - Color of the overview ruler marker for find matches
+
+    // Editor Rulers
     "editorRuler.foreground": "#ffffff1a",
+    // Editor Suggestion Widget - Controls the suggestion/intellisense popup
     "editorSuggestWidget.background": "#23232F",
     "editorSuggestWidget.foreground": "#f8f8f2",
     "editorSuggestWidget.selectedBackground": "#44475a",
+
+    // Additional suggestion widget customizations:
+    // editorSuggestWidget.border - Border color of the suggest widget
+    // editorSuggestWidget.highlightForeground - Color of matching text in suggestions
+    // editorSuggestWidget.focusHighlightForeground - Color of matching text in focused suggestion
+    // Editor Warning and Info
     "editorWarning.foreground": "#8be9fd",
+
+    // Additional warning customizations:
+    // editorWarning.background - Background color of warning squiggles
+    // editorWarning.border - Border color of warning boxes
+    // editorInfo.background - Background color of info squiggles
+
+    // Editor Whitespace
     "editorWhitespace.foreground": "#ffffff1a",
+
+    // Additional whitespace customizations:
+    // editorIndentGuide.background - Color of the indent guides
+    // editorIndentGuide.activeBackground - Color of the active indent guide
+    // editorRainbowIndentGuide.background[1-6] - Colors for rainbow indent guides
+
+    // Editor Widgets - Controls various editor widgets (find/replace, suggestions)
     "editorWidget.background": "#23232F",
-    "errorForeground": "#ff5555",
+    "editorWidget.border": "#bd93f947",
+    "editorWidget.resizeBorder": "#bd93f947",
+
+    // Additional widget customizations:
+    // editorWidget.foreground - Text color in editor widgets
+    // editorWidget.toolbarHoverBackground - Toolbar hover background in editor widgets
+    // Extension Buttons - Controls the appearance of extension action buttons
     "extensionButton.prominentBackground": "#50fa7b90",
     "extensionButton.prominentForeground": "#f8f8f2",
     "extensionButton.prominentHoverBackground": "#50fa7b60",
+
+    // Additional extension button customizations:
+    // extensionButton.background - Background color of extension action buttons
+    // extensionButton.foreground - Text color of extension action buttons
+    // extensionButton.hoverBackground - Background color on hover
+    // General UI
     "focusBorder": "#74618F",
     "foreground": "#f8f8f2",
+
+    // Additional UI customizations:
+    // focusBorder.activeBorder - Border color for focused elements
+    // descriptionForeground - Description text color
+    // errorForeground - Error text color
+
+    // Git Decorations - Controls the color of modified git resources
     "gitDecoration.conflictingResourceForeground": "#ffb86c",
     "gitDecoration.deletedResourceForeground": "#ff5555",
     "gitDecoration.ignoredResourceForeground": "#6272a4",
     "gitDecoration.modifiedResourceForeground": "#8be9fd",
     "gitDecoration.untrackedResourceForeground": "#50fa7b",
-    "input.background": "#1e1e27",
-    "input.border": "#3d3548c2",
+
+    // Additional git decoration customizations:
+    // gitDecoration.addedResourceForeground - Color for newly added git resources
+    // gitDecoration.renamedResourceForeground - Color for renamed git resources
+    // gitDecoration.stageModifiedResourceForeground - Color for staged modified git resources
+    // Input Controls - Controls the appearance of input fields
+    "input.background": "#282834",
+    "input.border": "#191A21",
     "input.foreground": "#f8f8f2",
-    "input.placeholderForeground": "#74618F",
+    "input.placeholderForeground": "#6272a4",
+
+    // Additional input customizations:
+    // input.activeBackground - Background color of active input
+    // input.activeBorder - Border color of active input
+    // inputOption.activeBackground - Background color of activated options in input fields
+    // inputOption.activeBorder - Border color of activated options in input fields
+    // Input Validation - Controls the appearance of input validation messages
     "inputOption.activeBorder": "#bd93f9",
     "inputValidation.errorBorder": "#ff5555",
     "inputValidation.infoBorder": "#ff79c6",
     "inputValidation.warningBorder": "#ffb86c",
+
+    // Additional input validation customizations:
+    // inputValidation.errorBackground - Background color of error validation
+    // inputValidation.errorForeground - Foreground color of error validation
+    // inputValidation.infoBackground - Background color of info validation
+    // inputValidation.infoForeground - Foreground color of info validation
+    // inputValidation.warningBackground - Background color of warning validation
+    // List and Tree Controls - Controls the appearance of lists and trees
+    // Active Selection
     "list.activeSelectionBackground": "#44475a",
     "list.activeSelectionForeground": "#f8f8f2",
-    "list.dropBackground": "#44475a",
-    "list.errorForeground": "#ff5555",
-    "list.focusBackground": "#44475a75",
+
+    // Focus and Hover
+    "list.focusBackground": "#44475a",
+    "list.focusForeground": "#f8f8f2",
+    "list.hoverBackground": "#44475a",
+    "list.hoverForeground": "#f8f8f2",
+
+    // Inactive Selection
+    "list.inactiveSelectionBackground": "#44475a70",
+    "list.inactiveSelectionForeground": "#f8f8f2",
+
+    // Drag and Drop
+    "list.dropBackground": "#44475a70",
     "list.highlightForeground": "#8be9fd",
-    "list.hoverBackground": "#44475a75",
-    "list.inactiveSelectionBackground": "#44475a75",
-    "list.warningForeground": "#ffb86c",
+
+    // Additional list customizations:
+    // list.errorForeground - Color of items containing errors
+    // list.warningForeground - Color of items containing warnings
+    // list.filterMatchBackground - Background color of filtered matches
+    // list.filterMatchBorder - Border color of filtered matches
+    // list.deemphasizedForeground - Color of de-emphasized items
+    // List Filter Widget - Controls the filter box in lists
     "listFilterWidget.background": "#343746",
     "listFilterWidget.noMatchesOutline": "#ff5555",
     "listFilterWidget.outline": "#424450",
+
+    // Additional list filter widget customizations:
+    // listFilterWidget.shadow - Shadow color of the widget
+    // listFilterWidget.border - Border color of the widget
+    // listFilterWidget.foreground - Text color in the filter box
+    // Merge Conflicts - Controls the appearance of merge conflict decorations
     "merge.currentHeaderBackground": "#50fa7b90",
     "merge.incomingHeaderBackground": "#bd93f990",
+
+    // Additional merge customizations:
+    // merge.border - Border color in merge conflicts
+    // merge.commonContentBackground - Background color of common ancestor content
+    // merge.commonHeaderBackground - Background color of common ancestor header
+    // merge.currentContentBackground - Background color of current content
+    // merge.incomingContentBackground - Background color of incoming content
+    // Panel - Controls the panels shown in the bottom of the workbench
     "panel.background": "#1c1c25",
     "panel.border": "#bd93f93a",
     "panelTitle.activeBorder": "#ff79c6",
     "panelTitle.activeForeground": "#f8f8f2",
     "panelTitle.inactiveForeground": "#A286C7",
+
+    // Additional panel customizations:
+    // panel.dropBorder - Border color when dragging panels
+    // panelSection.border - Color of the panel section borders
+    // panelSection.dropBackground - Background color when dragging panel sections
+    // panelInput.border - Border color of input fields in panels
+    // Peek View - Controls the peek window that shows definitions/references
+    // Peek View Border and Background
     "peekView.border": "#44475a",
     "peekViewEditor.background": "#21212C",
-    "peekViewEditor.matchHighlightBackground": "#f1fa8c80",
     "peekViewResult.background": "#23232F",
+    "peekViewTitle.background": "#282834",
+
+    // Peek View Content
     "peekViewResult.fileForeground": "#f8f8f2",
     "peekViewResult.lineForeground": "#f8f8f2",
-    "peekViewResult.matchHighlightBackground": "#f1fa8c80",
-    "peekViewResult.selectionBackground": "#44475a",
-    "peekViewResult.selectionForeground": "#f8f8f2",
-    "peekViewTitle.background": "#282834",
     "peekViewTitleDescription.foreground": "#6272a4",
     "peekViewTitleLabel.foreground": "#f8f8f2",
+
+    // Peek View Highlighting
+    "peekViewEditor.matchHighlightBackground": "#b48cfa18",
+    "peekViewResult.matchHighlightBackground": "#b48cfa00",
+    "peekViewResult.selectionBackground": "#44475a",
+    "peekViewResult.selectionForeground": "#f8f8f2",
+
+    // Additional peek view customizations:
+    // peekViewEditorGutter.background - Background color of the gutter in peek view
+    // peekViewResult.lineBackground - Background color for line nodes in the peek view
+    // peekViewEditorStickyScroll.background - Background of sticky scroll in peek view
+    // Picker Groups - Controls the appearance of quick picker groups
     "pickerGroup.border": "#bd93f9",
     "pickerGroup.foreground": "#8be9fd",
+
+    // Additional picker customizations:
+    // pickerGroup.background - Background color for picker groups
+    // quickInput.background - Background of quick input widget
+    // quickInput.foreground - Foreground of quick input widget
+
+    // Progress Bar - Controls the appearance of progress bars
     "progressBar.background": "#ff79c6",
+
+    // Additional progress bar customizations:
+    // progressBar.foreground - Foreground color for progress bars
+    // notificationProgress.background - Background color for progress bars in notifications
     "selection.background": "#bd93f9",
     "settings.checkboxBackground": "#23232F",
     "settings.checkboxBorder": "#282834",
@@ -152,10 +358,17 @@
     "settings.textInputBackground": "#23232F",
     "settings.textInputBorder": "#282834",
     "settings.textInputForeground": "#f8f8f2",
+    // Sidebar - Controls the appearance of the sidebar
     "sideBar.background": "#23232F",
     "sideBarSectionHeader.background": "#21212C",
     "sideBarSectionHeader.border": "#282834",
     "sideBarTitle.foreground": "#f8f8f2",
+
+    // Additional sidebar customizations:
+    // sideBar.border - Border color between sidebar and editor
+    // sideBar.foreground - Foreground color for sidebar items
+    // sideBarSectionHeader.foreground - Foreground color for section headers
+    // sideBar.dropBackground - Background when dragging items
     "statusBar.background": "#282834",
     "statusBar.debuggingBackground": "#ff5555",
     "statusBar.debuggingForeground": "#282834",
@@ -190,12 +403,29 @@
     "terminal.ansiYellow": "#f1fa8c",
     "terminal.background": "#1c1c25",
     "terminal.foreground": "#f8f8f2",
+    // Title Bar - Controls the window title bar
+    // Active Window
     "titleBar.activeBackground": "#23232F",
     "titleBar.activeForeground": "#dbd6e1",
     "titleBar.border": "#282834",
+
+    // Inactive Window
     "titleBar.inactiveBackground": "#282834",
     "titleBar.inactiveForeground": "#b9a8cd86",
+
+    // Additional title bar customizations:
+    // window.activeBorder - Border color of active windows
+    // window.inactiveBorder - Border color of inactive windows
+    // titleBar.activeModifiedBorder - Border color of modified active windows
+    // Walkthrough - Controls the interactive walkthrough UI
     "walkThrough.embeddedEditorBackground": "#23232F",
+
+    // Additional walkthrough customizations:
+    // walkthrough.stepTitle.foreground - Color of step titles
+    // walkThrough.captionBackground - Background color of captions
+    // walkThrough.captionForeground - Foreground color of captions
+
+    // Tree View - Controls tree views throughout the workbench
     "tree.inactiveIndentGuidesStroke": "#353545",
     //"acceptButton.green": "#679d63",
     //"acceptButton.hoverGreen": "#2d6f2a",
@@ -335,7 +565,11 @@
     //"editorCommentsWidget.unresolvedBorder": "#6272a4",
     "editorGhostText.foreground": "#74618fbd",
     // "editorGroup.dropIntoPromptBackground": "#23232F",
-    //"editorGroup.dropIntoPromptForeground": "#f8f8f2",
+    // "editorGroup.dropIntoPromptForeground": "#f8f8f2",
+
+    // Additional Editor Group Features
+    // editorGroup.emptyBackground - Background color of empty editor group
+    // editorGroup.focusedEmptyBorder - Border color of focused empty editor group
     //"editorGroupHeader.noTabsBackground": "#21212C",
     //"editorGutter.background": "#21212C",
     //"editorGutter.commentGlyphForeground": "#f8f8f2",
@@ -427,7 +661,7 @@
     //"gitDecoration.stageDeletedResourceForeground": "#c74e39",
     //"gitDecoration.stageModifiedResourceForeground": "#e2c08d",
     //"gitDecoration.submoduleResourceForeground": "#8db9e2",
-    //"icon.foreground": "#c5c5c5",
+    "icon.foreground": "#c5c5c5",
     //"inlineChat.background": "#23232F",
     //"inlineChat.border": "#454545",
     //"inlineChat.foreground": "#f8f8f2",
@@ -1661,6 +1895,5 @@
         "foreground": "#B267E6"
       }
     }
-  ],
-  "name": "Lux"
+  ]
 }
