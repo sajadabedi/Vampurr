@@ -1,13 +1,25 @@
 {
   "name": "codeula",
   "displayName": "Codeula",
-  "description": "",
-  "version": "0.0.1",
+  "description": "A dark theme for Visual Studio Code with a modern and elegant color palette",
+  "version": "1.0.0",
+  "publisher": "sajjad",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sajadabedi/Codeula"
+  },
   "engines": {
     "vscode": "^1.101.0"
   },
   "categories": [
     "Themes"
+  ],
+  "keywords": [
+    "theme",
+    "dark theme",
+    "codeula",
+    "color theme"
   ],
   "contributes": {
     "themes": [
@@ -17,5 +29,9 @@
         "path": "./themes/codeula-color-theme.json"
       }
     ]
+  },
+  "galleryBanner": {
+    "color": "#1E1E1E",
+    "theme": "dark"
   }
 }
