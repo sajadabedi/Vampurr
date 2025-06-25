@@ -20,7 +20,7 @@
     // Breadcrumbs - Controls the breadcrumbs navigation
     // Consider adding breadcrumb.errorForeground for error states
     "breadcrumb.activeSelectionForeground": "#f8f8f2",
-    "breadcrumb.background": "#21212C",
+    "breadcrumb.background": "#282A36",
     "breadcrumb.focusForeground": "#f8f8f2",
     "breadcrumb.foreground": "#6272a4",
     "breadcrumbPicker.background": "#282834",
@@ -29,7 +29,7 @@
     // Consider adding button.border for custom borders
     "button.background": "#44475a",
     "button.foreground": "#f8f8f2",
-    "button.secondaryBackground": "#21212C",
+    "button.secondaryBackground": "#282A36",
     "button.secondaryForeground": "#f8f8f2",
     "button.secondaryHoverBackground": "#343746",
 
@@ -41,7 +41,7 @@
     // Dropdown Control - Controls dropdown menus throughout the UI
     // You can add dropdown.listBackground for dropdown list styling
     // Editor Core - Main editor colors and highlighting
-    "editor.background": "#21212C",
+    "editor.background": "#282A36",
     "editor.foreground": "#f8f8f2",
     "editor.lineHighlightBorder": "#44475a",
 
@@ -60,9 +60,9 @@
     "editor.selectionBackground": "#3c304a",
 
     // Editor Snippets
-    "editor.snippetFinalTabstopHighlightBackground": "#21212C",
+    "editor.snippetFinalTabstopHighlightBackground": "#282A36",
     "editor.snippetFinalTabstopHighlightBorder": "#50fa7b",
-    "editor.snippetTabstopHighlightBackground": "#21212C",
+    "editor.snippetTabstopHighlightBackground": "#282A36",
     "editor.snippetTabstopHighlightBorder": "#6272a4",
 
     // Editor Word Highlighting
@@ -296,7 +296,7 @@
     // merge.incomingContentBackground - Background color of incoming content
     // Panel - Controls the panels shown in the bottom of the workbench
     "panel.background": "#1c1c25",
-    "panel.border": "#bd93f93a",
+    "panel.border": "#bd93f987",
     "panelTitle.activeBorder": "#ff79c6",
     "panelTitle.activeForeground": "#f8f8f2",
     "panelTitle.inactiveForeground": "#A286C7",
@@ -309,7 +309,7 @@
     // Peek View - Controls the peek window that shows definitions/references
     // Peek View Border and Background
     "peekView.border": "#44475a",
-    "peekViewEditor.background": "#21212C",
+    "peekViewEditor.background": "#282A36",
     "peekViewResult.background": "#23232F",
     "peekViewTitle.background": "#282834",
 
@@ -361,7 +361,7 @@
     "settings.textInputForeground": "#f8f8f2",
     // Sidebar - Controls the appearance of the sidebar
     "sideBar.background": "#23232F",
-    "sideBarSectionHeader.background": "#21212C",
+    "sideBarSectionHeader.background": "#282A36",
     "sideBarSectionHeader.border": "#282834",
     "sideBarTitle.foreground": "#f8f8f2",
 
@@ -379,8 +379,8 @@
     "statusBarItem.prominentBackground": "#ff5555",
     "statusBarItem.prominentHoverBackground": "#ffb86c",
     "statusBarItem.remoteBackground": "#bd93f9",
-    "statusBarItem.remoteForeground": "#21212C",
-    "tab.activeBackground": "#21212C",
+    "statusBarItem.remoteForeground": "#282A36",
+    "tab.activeBackground": "#282A36",
     "tab.activeBorderTop": "#ff79c680",
     "tab.activeForeground": "#f8f8f2",
     "tab.border": "#282834",
@@ -408,7 +408,8 @@
     // Active Window
     "titleBar.activeBackground": "#23232F",
     "titleBar.activeForeground": "#dbd6e1",
-    "titleBar.border": "#282834",
+    "titleBar.border": "#2e2e40",
+    "sideBar.border": "#2e2e40",
 
     // Inactive Window
     "titleBar.inactiveBackground": "#282834",
@@ -571,8 +572,8 @@
     // Additional Editor Group Features
     // editorGroup.emptyBackground - Background color of empty editor group
     // editorGroup.focusedEmptyBorder - Border color of focused empty editor group
-    //"editorGroupHeader.noTabsBackground": "#21212C",
-    //"editorGutter.background": "#21212C",
+    //"editorGroupHeader.noTabsBackground": "#282A36",
+    //"editorGutter.background": "#282A36",
     //"editorGutter.commentGlyphForeground": "#f8f8f2",
     //"editorGutter.commentRangeForeground": "#343746",
     //"editorGutter.commentUnresolvedGlyphForeground": "#f8f8f2",
@@ -626,8 +627,8 @@
     //"editorOverviewRuler.inlineChatRemoved": "#ff555530",
     //"editorOverviewRuler.rangeHighlightForeground": "#007acc99",
     //"editorOverviewRuler.wordHighlightTextForeground": "#ffb86c",
-    //"editorPane.background": "#21212C",
-    //"editorStickyScroll.background": "#21212C",
+    //"editorPane.background": "#282A36",
+    //"editorStickyScroll.background": "#282A36",
     "editorStickyScroll.shadow": "#00000032",
     //"editorStickyScrollHover.background": "#2a2d2e",
     //"editorSuggestWidget.border": "#454545",
@@ -669,7 +670,7 @@
     //"inlineChat.shadow": "#0000005c",
     //"inlineChatDiff.inserted": "#50fa7b10",
     //"inlineChatDiff.removed": "#ff555528",
-    //"inlineChatInput.background": "#21212C",
+    //"inlineChatInput.background": "#282A36",
     //"inlineChatInput.border": "#454545",
     //"inlineChatInput.focusBorder": "#6272a4",
     //"inlineChatInput.placeholderForeground": "#6272a4",
@@ -677,8 +678,8 @@
     //"inlineEdit.gutterIndicator.primaryBackground": "#44475a66",
     //"inlineEdit.gutterIndicator.primaryBorder": "#44475a",
     //"inlineEdit.gutterIndicator.primaryForeground": "#f8f8f2",
-    //"inlineEdit.gutterIndicator.secondaryBackground": "#21212C",
-    //"inlineEdit.gutterIndicator.secondaryBorder": "#21212C",
+    //"inlineEdit.gutterIndicator.secondaryBackground": "#282A36",
+    //"inlineEdit.gutterIndicator.secondaryBorder": "#282A36",
     //"inlineEdit.gutterIndicator.secondaryForeground": "#f8f8f2",
     //"inlineEdit.gutterIndicator.successfulBackground": "#44475a",
     //"inlineEdit.gutterIndicator.successfulBorder": "#44475a",
@@ -760,7 +761,7 @@
     //"minimapSlider.activeBackground": "#bfbfbf33",
     //"minimapSlider.background": "#79797933",
     //"minimapSlider.hoverBackground": "#64646459",
-    //"multiDiffEditor.background": "#21212C",
+    //"multiDiffEditor.background": "#282A36",
     //"multiDiffEditor.border": "#282834",
     //"multiDiffEditor.headerBackground": "#262626",
     //"notebook.cellBorderColor": "#44475a75",
@@ -768,7 +769,7 @@
     //"notebook.cellInsertionIndicator": "#6272a4",
     //"notebook.cellStatusBarItemHoverBackground": "#ffffff26",
     //"notebook.cellToolbarSeparator": "#80808059",
-    //"notebook.editorBackground": "#21212C",
+    //"notebook.editorBackground": "#282A36",
     //"notebook.focusedCellBorder": "#6272a4",
     //"notebook.focusedEditorBorder": "#6272a4",
     //"notebook.inactiveFocusedCellBorder": "#44475a75",
@@ -799,8 +800,8 @@
     "panelStickyScroll.shadow": "#00000042",
     //"panelTitleBadge.background": "#ff79c6",
     //"panelTitleBadge.foreground": "#f8f8f2",
-    //"peekViewEditorGutter.background": "#21212C",
-    //"peekViewEditorStickyScroll.background": "#21212C",
+    //"peekViewEditorGutter.background": "#282A36",
+    //"peekViewEditorStickyScroll.background": "#282A36",
     //"ports.iconRunningProcessForeground": "#bd93f9",
     //"problemsErrorIcon.foreground": "#ff5555",
     //"problemsInfoIcon.foreground": "#3794ff",
@@ -872,7 +873,7 @@
     //"statusBarItem.hoverBackground": "#ffffff1f",
     //"statusBarItem.hoverForeground": "#f8f8f2",
     //"statusBarItem.offlineBackground": "#6c1717",
-    //"statusBarItem.offlineForeground": "#21212C",
+    //"statusBarItem.offlineForeground": "#282A36",
     //"statusBarItem.offlineHoverBackground": "#ffffff1f",
     //"statusBarItem.offlineHoverForeground": "#f8f8f2",
     //"statusBarItem.prominentForeground": "#f8f8f2",
@@ -922,10 +923,10 @@
     //"tab.dragAndDropBorder": "#f8f8f2",
     //"tab.inactiveModifiedBorder": "#3399cc80",
     //"tab.lastPinnedBorder": "#585858",
-    //"tab.selectedBackground": "#21212C",
+    //"tab.selectedBackground": "#282A36",
     //"tab.selectedBorderTop": "#ff79c680",
     //"tab.selectedForeground": "#f8f8f2",
-    //"tab.unfocusedActiveBackground": "#21212C",
+    //"tab.unfocusedActiveBackground": "#282A36",
     //"tab.unfocusedActiveBorderTop": "#ff79c640",
     //"tab.unfocusedActiveForeground": "#f8f8f280",
     //"tab.unfocusedActiveModifiedBorder": "#3399cc80",
@@ -997,11 +998,11 @@
     //"toolbar.activeBackground": "#63666750",
     //"toolbar.hoverBackground": "#5a5d5e50",
 
-    "tree.indentGuidesStroke": "#353549",
+    "tree.indentGuidesStroke": "#353549"
     //"tree.tableColumnsBorder": "#cccccc20",
     //"tree.tableOddRowsBackground": "#f8f8f20a",
     //"walkthrough.stepTitle.foreground": "#ffffff",
-    //"welcomePage.progress.background": "#21212C",
+    //"welcomePage.progress.background": "#282A36",
     //"welcomePage.progress.foreground": "#3794ff",
     //"welcomePage.tileBackground": "#23232F",
     //"welcomePage.tileBorder": "#ffffff1a",
@@ -1096,7 +1097,7 @@
     //"radio.inactiveBackground": null,
     //"radio.inactiveForeground": null,
     //"searchEditor.findMatchBorder": null,
-    "sideBar.border": "#282834"
+
     //"sideBar.foreground": null,
     //"sideBarSectionHeader.foreground": null,
     //"sideBarStickyScroll.border": null,
