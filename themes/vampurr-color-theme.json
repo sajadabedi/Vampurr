@@ -565,7 +565,7 @@
     //"editorCommentsWidget.replyInputBackground": "#282834",
     //"editorCommentsWidget.resolvedBorder": "#cccccc80",
     //"editorCommentsWidget.unresolvedBorder": "#6272a4",
-    "editorGhostText.foreground": "#74618fbd",
+    "editorGhostText.foreground": "#6b538dbd",
     // "editorGroup.dropIntoPromptBackground": "#23232F",
     // "editorGroup.dropIntoPromptForeground": "#f8f8f2",
 
